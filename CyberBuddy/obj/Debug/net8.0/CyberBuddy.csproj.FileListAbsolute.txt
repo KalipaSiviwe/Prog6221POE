@@ -1,0 +1,14 @@
+C:\Users\lab_services_student\Documents\GitHub\CyberBuddy\CyberBuddy\bin\Debug\net8.0\CyberBuddy.exe
+C:\Users\lab_services_student\Documents\GitHub\CyberBuddy\CyberBuddy\bin\Debug\net8.0\CyberBuddy.deps.json
+C:\Users\lab_services_student\Documents\GitHub\CyberBuddy\CyberBuddy\bin\Debug\net8.0\CyberBuddy.runtimeconfig.json
+C:\Users\lab_services_student\Documents\GitHub\CyberBuddy\CyberBuddy\bin\Debug\net8.0\CyberBuddy.dll
+C:\Users\lab_services_student\Documents\GitHub\CyberBuddy\CyberBuddy\bin\Debug\net8.0\CyberBuddy.pdb
+C:\Users\lab_services_student\Documents\GitHub\CyberBuddy\CyberBuddy\obj\Debug\net8.0\CyberBuddy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lab_services_student\Documents\GitHub\CyberBuddy\CyberBuddy\obj\Debug\net8.0\CyberBuddy.AssemblyInfoInputs.cache
+C:\Users\lab_services_student\Documents\GitHub\CyberBuddy\CyberBuddy\obj\Debug\net8.0\CyberBuddy.AssemblyInfo.cs
+C:\Users\lab_services_student\Documents\GitHub\CyberBuddy\CyberBuddy\obj\Debug\net8.0\CyberBuddy.csproj.CoreCompileInputs.cache
+C:\Users\lab_services_student\Documents\GitHub\CyberBuddy\CyberBuddy\obj\Debug\net8.0\CyberBuddy.dll
+C:\Users\lab_services_student\Documents\GitHub\CyberBuddy\CyberBuddy\obj\Debug\net8.0\refint\CyberBuddy.dll
+C:\Users\lab_services_student\Documents\GitHub\CyberBuddy\CyberBuddy\obj\Debug\net8.0\CyberBuddy.pdb
+C:\Users\lab_services_student\Documents\GitHub\CyberBuddy\CyberBuddy\obj\Debug\net8.0\CyberBuddy.genruntimeconfig.cache
+C:\Users\lab_services_student\Documents\GitHub\CyberBuddy\CyberBuddy\obj\Debug\net8.0\ref\CyberBuddy.dll
