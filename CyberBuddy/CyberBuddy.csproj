@@ -8,6 +8,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <Content Include=".github\wotkflows\dotnet-ci.txt" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="System.Windows.Extensions" Version="10.0.0-rc.1.25451.107" />
 	</ItemGroup>
 
