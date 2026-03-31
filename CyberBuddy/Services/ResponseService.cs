@@ -21,7 +21,7 @@
                 return "You can ask me about password safety, phishing, safe browsing, malware basics, and privacy tips.";
             }
 
-            if (ContainsAny(text, "password", "strong password", "password safety"))
+            if (ContainsAny(text, "strong password", "password safety"))
             {
                 return "Use long, unique passwords (12+ characters), mix letters/numbers/symbols, and never reuse passwords. A password manager helps a lot.";
             }
@@ -31,17 +31,17 @@
                 return "Check sender addresses carefully, avoid urgent scare tactics, don't click unknown links, and verify requests through trusted channels.";
             }
 
-            if (ContainsAny(text, "safe browsing", "browse safely", "website safety"))
+            if (ContainsAny(text, "safe browsing", "browse safely"))
             {
                 return "Only visit HTTPS websites, keep browser/software updated, avoid downloading unknown files, and use antivirus protection.";
             }
 
-            if (ContainsAny(text, "malware", "virus", "ransomware"))
+            if (ContainsAny(text, "malware"))
             {
                 return "Malware is harmful software. Prevent it by updating systems, avoiding suspicious downloads, and scanning files before opening.";
             }
 
-            if (ContainsAny(text, "privacy", "protect my data", "data protection"))
+            if (ContainsAny(text, "privacy", "data protection" , "data"))
             {
                 return "Limit personal info shared online, review privacy settings, enable MFA, and be careful on public Wi-Fi.";
             }
