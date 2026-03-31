@@ -6,22 +6,22 @@
         {
             string text = input.ToLowerInvariant();
 
-            if (ContainsAny(text, "how are you", "how r u", "how are u"))
+            if (ContainsAny(text, "how are you", "how are u"))
             {
-                return $"I am functioning well, {userName}. Thanks for asking!";
+                return $"I am functioning quite well, {userName}. Thank you for asking!";
             }
 
-            if (ContainsAny(text, "what is your purpose", "your purpose", "why are you here"))
+            if (ContainsAny(text, "what is your purpose", "your purpose", "purpose"))
             {
                 return "My purpose is to improve your cybersecurity awareness and help you stay safe online.";
             }
 
-            if (ContainsAny(text, "what can i ask", "help topics", "what do you do"))
+            if (ContainsAny(text, "what can i ask", "topics", "what do you do"))
             {
                 return "You can ask me about password safety, phishing, safe browsing, malware basics, and privacy tips.";
             }
 
-            if (ContainsAny(text, "password", "strong password", "password safety"))
+            if (ContainsAny(text, "strong password", "password safety"))
             {
                 return "Use long, unique passwords (12+ characters), mix letters/numbers/symbols, and never reuse passwords. A password manager helps a lot.";
             }
@@ -31,17 +31,17 @@
                 return "Check sender addresses carefully, avoid urgent scare tactics, don't click unknown links, and verify requests through trusted channels.";
             }
 
-            if (ContainsAny(text, "safe browsing", "browse safely", "website safety"))
+            if (ContainsAny(text, "safe browsing", "browse safely"))
             {
                 return "Only visit HTTPS websites, keep browser/software updated, avoid downloading unknown files, and use antivirus protection.";
             }
 
-            if (ContainsAny(text, "malware", "virus", "ransomware"))
+            if (ContainsAny(text, "malware"))
             {
                 return "Malware is harmful software. Prevent it by updating systems, avoiding suspicious downloads, and scanning files before opening.";
             }
 
-            if (ContainsAny(text, "privacy", "protect my data", "data protection"))
+            if (ContainsAny(text, "privacy", "data protection" , "data"))
             {
                 return "Limit personal info shared online, review privacy settings, enable MFA, and be careful on public Wi-Fi.";
             }

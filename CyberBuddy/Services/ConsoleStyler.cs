@@ -53,14 +53,14 @@
         public void PrintHelp()
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("You can ask things like:");
+            Console.WriteLine("You may ask things like:");
             Console.WriteLine("- How are you?");
             Console.WriteLine("- What is your purpose?");
             Console.WriteLine("- What can I ask you about?");
-            Console.WriteLine("- Tips for password safety");
+            Console.WriteLine("- Help for password safety");
             Console.WriteLine("- How to detect phishing");
             Console.WriteLine("- Safe browsing tips");
-            Console.WriteLine("- Malware basics");
+            Console.WriteLine("- Basics of Malware");
             Console.WriteLine("- Privacy protection tips");
             Console.WriteLine("Type 'exit' to close CyberBuddy.");
             Console.ResetColor();

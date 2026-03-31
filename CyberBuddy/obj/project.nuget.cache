@@ -1,13 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "H1U+DQJLunI=",
+  "dgSpecHash": "MJRSaYguoRg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lab_services_student\\Documents\\GitHub\\CyberBuddy\\CyberBuddy\\CyberBuddy.csproj",
+  "projectFilePath": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy\\CyberBuddy.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\lab_services_student\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.25\\microsoft.windowsdesktop.app.ref.8.0.25.nupkg.sha512",
-    "C:\\Users\\lab_services_student\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.25\\microsoft.netcore.app.ref.8.0.25.nupkg.sha512",
-    "C:\\Users\\lab_services_student\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.25\\microsoft.aspnetcore.app.ref.8.0.25.nupkg.sha512",
-    "C:\\Users\\lab_services_student\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.25\\microsoft.netcore.app.host.win-x64.8.0.25.nupkg.sha512"
+    "C:\\Users\\lab_services_student\\.nuget\\packages\\system.windows.extensions\\10.0.0-rc.1.25451.107\\system.windows.extensions.10.0.0-rc.1.25451.107.nupkg.sha512"
   ],
   "logs": []
 }

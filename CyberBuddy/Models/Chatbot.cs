@@ -1,5 +1,5 @@
 ﻿using CyberBuddy.Services;
-using System.Reflection;
+using System.Media;
 
 namespace CyberBuddy.Models
 {
@@ -30,46 +30,21 @@ namespace CyberBuddy.Models
         {
             string audioPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "assets", "greeting.wav");
 
-            if (!File.Exists(audioPath))
-            {
-                _styler.PrintInfo("Voice greeting not found. Add your WAV file at: assets/greeting.wav");
-                return;
-            }
-
-            // If not running on Windows, just skip audio playback.
-            if (!OperatingSystem.IsWindows())
-            {
-                _styler.PrintWarning("Voice playback is only supported on Windows on this project.");
-                return;
-            }
-
             try
             {
-                // Use reflection so the project can compile/run even when Windows Desktop Runtime isn't installed.
-                // SoundPlayer class is in System.Media (Windows desktop stack).
-                var windowsExtensions = Assembly.Load("System.Windows.Extensions");
-                var soundPlayerType = windowsExtensions.GetType("System.Media.SoundPlayer", throwOnError: false);
-
-                if (soundPlayerType == null)
+                if (!File.Exists(audioPath))
                 {
-                    _styler.PrintWarning("Voice playback not available (SoundPlayer type missing).");
+                    _styler.PrintInfo("Unfortunatley my voice is gone, i have the flu =( ");
                     return;
                 }
 
-                object? player = Activator.CreateInstance(soundPlayerType, audioPath);
-                if (player == null)
-                {
-                    _styler.PrintWarning("Voice playback not available (could not create SoundPlayer).");
-                    return;
-                }
-
-                soundPlayerType.GetMethod("Load", Type.EmptyTypes)?.Invoke(player, null);
-                soundPlayerType.GetMethod("PlaySync", Type.EmptyTypes)?.Invoke(player, null);
+                using SoundPlayer player = new SoundPlayer(audioPath);
+                player.Load();
+                player.PlaySync();
             }
             catch (Exception ex)
             {
                 _styler.PrintWarning($"Could not play audio: {ex.Message}");
-                _styler.PrintInfo("If you want voice to work, install .NET Windows Desktop Runtime 8.0.");
             }
         }
 
@@ -77,7 +52,7 @@ namespace CyberBuddy.Models
         {
             while (true)
             {
-                _styler.TypeLine("Please enter your name: ", ConsoleColor.Cyan, 10);
+                _styler.TypeLine("Please enter your name: ", ConsoleColor.Cyan, 8);
                 string? input = Console.ReadLine();
 
                 if (!string.IsNullOrWhiteSpace(input))
@@ -93,9 +68,9 @@ namespace CyberBuddy.Models
         private void ShowWelcome()
         {
             _styler.PrintDivider();
-            _styler.TypeLine($"Welcome, {_userName}! I am CyberBuddy.", ConsoleColor.Green, 12);
-            _styler.TypeLine("Ask me about passwords, phishing, safe browsing, and more.", ConsoleColor.Green, 12);
-            _styler.TypeLine("Type 'help' for options or 'exit' to quit.", ConsoleColor.Yellow, 12);
+            _styler.TypeLine($"Welcome, {_userName}! I am CyberBuddy.", ConsoleColor.Green, 10);
+            _styler.TypeLine("Ask me about passwords, phishing, safe browsing, malware, and privacy.", ConsoleColor.Green, 10);
+            _styler.TypeLine("Type 'help' for examples, or 'exit' to quit.", ConsoleColor.Yellow, 10);
             _styler.PrintDivider();
         }
 
@@ -109,7 +84,7 @@ namespace CyberBuddy.Models
 
                 if (string.IsNullOrWhiteSpace(userInput))
                 {
-                    _styler.PrintWarning("I didn't catch that. Please type a question.");
+                    _styler.PrintWarning("I didn't quite catch that. Please type your question.");
                     continue;
                 }
 
@@ -127,7 +102,7 @@ namespace CyberBuddy.Models
                 }
 
                 string response = _responseService.GetResponse(cleanedInput, _userName);
-                _styler.TypeLine(response, ConsoleColor.Magenta, 8);
+                _styler.TypeLine(response, ConsoleColor.Magenta, 6);
             }
         }
     }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CyberBuddy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e349b393aeacf9cc1154f6362cea8151bba4e398")]
 [assembly: System.Reflection.AssemblyProductAttribute("CyberBuddy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CyberBuddy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

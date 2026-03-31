@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "CyberBuddy/1.0.0": {
+        "dependencies": {
+          "System.Windows.Extensions": "10.0.0-rc.1.25451.107"
+        },
+        "runtime": {
+          "CyberBuddy.dll": {}
+        }
+      },
+      "System.Windows.Extensions/10.0.0-rc.1.25451.107": {
+        "runtime": {
+          "lib/net10.0/System.Windows.Extensions.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.45207"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net10.0/System.Windows.Extensions.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.45207"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CyberBuddy/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Windows.Extensions/10.0.0-rc.1.25451.107": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AYxkdkkVz16sQkx6VbUDaYD5J7oHTYJofmL8FSTRheOreX3ENXxT08OQvW8fTx1hw5WVb6D8+KlDaRv3xgLdGw==",
+      "path": "system.windows.extensions/10.0.0-rc.1.25451.107",
+      "hashPath": "system.windows.extensions.10.0.0-rc.1.25451.107.nupkg.sha512"
+    }
+  }
+}
