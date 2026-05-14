@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MJRSaYguoRg=",
+  "dgSpecHash": "HByP5TFXPCQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy\\CyberBuddy.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\lab_services_student\\.nuget\\packages\\system.windows.extensions\\10.0.0-rc.1.25451.107\\system.windows.extensions.10.0.0-rc.1.25451.107.nupkg.sha512"
+    "C:\\Users\\lab_services_student\\.nuget\\packages\\system.windows.extensions\\8.0.0\\system.windows.extensions.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

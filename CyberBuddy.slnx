@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="CyberBuddy/CyberBuddy.csproj" />
+  <Project Path="CyberBuddy1/CyberBuddy1.csproj" Id="0b39be17-bfbc-46a5-aec2-80dd5b11534f" />
 </Solution>
