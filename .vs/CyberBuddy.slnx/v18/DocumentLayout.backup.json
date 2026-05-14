@@ -3,28 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6CB68926-6480-B26E-31CF-3E67F15FD674}|CyberBuddy\\CyberBuddy.csproj|c:\\users\\lab_services_student\\documents\\cyberbuddy\\cyberbuddy\\.github\\wotkflows\\dotnet-ci.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{6CB68926-6480-B26E-31CF-3E67F15FD674}|CyberBuddy\\CyberBuddy.csproj|solutionrelative:cyberbuddy\\.github\\wotkflows\\dotnet-ci.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{0B39BE17-BFBC-46A5-AEC2-80DD5B11534F}|CyberBuddy1\\CyberBuddy1.csproj|c:\\users\\lab_services_student\\documents\\cyberbuddy\\cyberbuddy1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B39BE17-BFBC-46A5-AEC2-80DD5B11534F}|CyberBuddy1\\CyberBuddy1.csproj|solutionrelative:cyberbuddy1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B39BE17-BFBC-46A5-AEC2-80DD5B11534F}|CyberBuddy1\\CyberBuddy1.csproj|c:\\users\\lab_services_student\\documents\\cyberbuddy\\cyberbuddy1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0B39BE17-BFBC-46A5-AEC2-80DD5B11534F}|CyberBuddy1\\CyberBuddy1.csproj|solutionrelative:cyberbuddy1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B39BE17-BFBC-46A5-AEC2-80DD5B11534F}|CyberBuddy1\\CyberBuddy1.csproj|c:\\users\\lab_services_student\\documents\\cyberbuddy\\cyberbuddy1\\services\\chatengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B39BE17-BFBC-46A5-AEC2-80DD5B11534F}|CyberBuddy1\\CyberBuddy1.csproj|solutionrelative:cyberbuddy1\\services\\chatengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B39BE17-BFBC-46A5-AEC2-80DD5B11534F}|CyberBuddy1\\CyberBuddy1.csproj|c:\\users\\lab_services_student\\documents\\cyberbuddy\\cyberbuddy1\\models\\usersentiment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B39BE17-BFBC-46A5-AEC2-80DD5B11534F}|CyberBuddy1\\CyberBuddy1.csproj|solutionrelative:cyberbuddy1\\models\\usersentiment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B39BE17-BFBC-46A5-AEC2-80DD5B11534F}|CyberBuddy1\\CyberBuddy1.csproj|c:\\users\\lab_services_student\\documents\\cyberbuddy\\cyberbuddy1\\services\\asciiartprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B39BE17-BFBC-46A5-AEC2-80DD5B11534F}|CyberBuddy1\\CyberBuddy1.csproj|solutionrelative:cyberbuddy1\\services\\asciiartprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B39BE17-BFBC-46A5-AEC2-80DD5B11534F}|CyberBuddy1\\CyberBuddy1.csproj|c:\\users\\lab_services_student\\documents\\cyberbuddy\\cyberbuddy1\\models\\chatmemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B39BE17-BFBC-46A5-AEC2-80DD5B11534F}|CyberBuddy1\\CyberBuddy1.csproj|solutionrelative:cyberbuddy1\\models\\chatmemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B39BE17-BFBC-46A5-AEC2-80DD5B11534F}|CyberBuddy1\\CyberBuddy1.csproj|c:\\users\\lab_services_student\\documents\\cyberbuddy\\cyberbuddy1\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B39BE17-BFBC-46A5-AEC2-80DD5B11534F}|CyberBuddy1\\CyberBuddy1.csproj|solutionrelative:cyberbuddy1\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B39BE17-BFBC-46A5-AEC2-80DD5B11534F}|CyberBuddy1\\CyberBuddy1.csproj|c:\\users\\lab_services_student\\documents\\cyberbuddy\\cyberbuddy1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B39BE17-BFBC-46A5-AEC2-80DD5B11534F}|CyberBuddy1\\CyberBuddy1.csproj|solutionrelative:cyberbuddy1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B39BE17-BFBC-46A5-AEC2-80DD5B11534F}|CyberBuddy1\\CyberBuddy1.csproj|c:\\users\\lab_services_student\\documents\\cyberbuddy\\cyberbuddy1\\cyberbuddy1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0B39BE17-BFBC-46A5-AEC2-80DD5B11534F}|CyberBuddy1\\CyberBuddy1.csproj|solutionrelative:cyberbuddy1\\cyberbuddy1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B39BE17-BFBC-46A5-AEC2-80DD5B11534F}|CyberBuddy1\\CyberBuddy1.csproj|c:\\users\\lab_services_student\\documents\\cyberbuddy\\cyberbuddy1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0B39BE17-BFBC-46A5-AEC2-80DD5B11534F}|CyberBuddy1\\CyberBuddy1.csproj|solutionrelative:cyberbuddy1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6CB68926-6480-B26E-31CF-3E67F15FD674}|CyberBuddy\\CyberBuddy.csproj|c:\\users\\lab_services_student\\documents\\cyberbuddy\\cyberbuddy\\cyberbuddy.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{6CB68926-6480-B26E-31CF-3E67F15FD674}|CyberBuddy\\CyberBuddy.csproj|solutionrelative:cyberbuddy\\cyberbuddy.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6CB68926-6480-B26E-31CF-3E67F15FD674}|CyberBuddy\\CyberBuddy.csproj|c:\\users\\lab_services_student\\documents\\cyberbuddy\\cyberbuddy\\models\\chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CB68926-6480-B26E-31CF-3E67F15FD674}|CyberBuddy\\CyberBuddy.csproj|solutionrelative:cyberbuddy\\models\\chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CB68926-6480-B26E-31CF-3E67F15FD674}|CyberBuddy\\CyberBuddy.csproj|c:\\users\\lab_services_student\\documents\\cyberbuddy\\cyberbuddy\\services\\consolestyler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CB68926-6480-B26E-31CF-3E67F15FD674}|CyberBuddy\\CyberBuddy.csproj|solutionrelative:cyberbuddy\\services\\consolestyler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CB68926-6480-B26E-31CF-3E67F15FD674}|CyberBuddy\\CyberBuddy.csproj|c:\\users\\lab_services_student\\documents\\cyberbuddy\\cyberbuddy\\services\\responseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CB68926-6480-B26E-31CF-3E67F15FD674}|CyberBuddy\\CyberBuddy.csproj|solutionrelative:cyberbuddy\\services\\responseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6CB68926-6480-B26E-31CF-3E67F15FD674}|CyberBuddy\\CyberBuddy.csproj|c:\\users\\lab_services_student\\documents\\cyberbuddy\\cyberbuddy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6CB68926-6480-B26E-31CF-3E67F15FD674}|CyberBuddy\\CyberBuddy.csproj|solutionrelative:cyberbuddy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CB68926-6480-B26E-31CF-3E67F15FD674}|CyberBuddy\\CyberBuddy.csproj|c:\\users\\lab_services_student\\documents\\cyberbuddy\\cyberbuddy\\.github\\wotkflows\\dotnet-ci.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6CB68926-6480-B26E-31CF-3E67F15FD674}|CyberBuddy\\CyberBuddy.csproj|solutionrelative:cyberbuddy\\.github\\wotkflows\\dotnet-ci.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +58,130 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "CyberBuddy1\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy1\\MainWindow.xaml",
+              "RelativeToolTip": "CyberBuddy1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-13T16:57:14.094Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CyberBuddy1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "CyberBuddy1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T16:57:13.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AsciiArtProvider.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy1\\Services\\AsciiArtProvider.cs",
+              "RelativeDocumentMoniker": "CyberBuddy1\\Services\\AsciiArtProvider.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy1\\Services\\AsciiArtProvider.cs",
+              "RelativeToolTip": "CyberBuddy1\\Services\\AsciiArtProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T17:29:51.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserSentiment.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy1\\Models\\UserSentiment.cs",
+              "RelativeDocumentMoniker": "CyberBuddy1\\Models\\UserSentiment.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy1\\Models\\UserSentiment.cs",
+              "RelativeToolTip": "CyberBuddy1\\Models\\UserSentiment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T17:25:53.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatEngine.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy1\\Services\\ChatEngine.cs",
+              "RelativeDocumentMoniker": "CyberBuddy1\\Services\\ChatEngine.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy1\\Services\\ChatEngine.cs",
+              "RelativeToolTip": "CyberBuddy1\\Services\\ChatEngine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T17:29:42.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChatMemory.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy1\\Models\\ChatMemory.cs",
+              "RelativeDocumentMoniker": "CyberBuddy1\\Models\\ChatMemory.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy1\\Models\\ChatMemory.cs",
+              "RelativeToolTip": "CyberBuddy1\\Models\\ChatMemory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T17:25:50.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy1\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "CyberBuddy1\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy1\\AssemblyInfo.cs",
+              "RelativeToolTip": "CyberBuddy1\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T17:26:07.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy1\\App.xaml.cs",
+              "RelativeDocumentMoniker": "CyberBuddy1\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy1\\App.xaml.cs",
+              "RelativeToolTip": "CyberBuddy1\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T16:59:56.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CyberBuddy1.csproj",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy1\\CyberBuddy1.csproj",
+              "RelativeDocumentMoniker": "CyberBuddy1\\CyberBuddy1.csproj",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy1\\CyberBuddy1.csproj",
+              "RelativeToolTip": "CyberBuddy1\\CyberBuddy1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-13T17:23:41.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy1\\App.xaml",
+              "RelativeDocumentMoniker": "CyberBuddy1\\App.xaml",
+              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy1\\App.xaml",
+              "RelativeToolTip": "CyberBuddy1\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-13T16:59:32.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "dotnet-ci.txt",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy\\.github\\wotkflows\\dotnet-ci.txt",
               "RelativeDocumentMoniker": "CyberBuddy\\.github\\wotkflows\\dotnet-ci.txt",
@@ -46,70 +189,19 @@
               "RelativeToolTip": "CyberBuddy\\.github\\wotkflows\\dotnet-ci.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-03-31T16:02:38.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-31T16:02:38.841Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "CyberBuddy.csproj",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy\\CyberBuddy.csproj",
               "RelativeDocumentMoniker": "CyberBuddy\\CyberBuddy.csproj",
               "ToolTip": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy\\CyberBuddy.csproj",
               "RelativeToolTip": "CyberBuddy\\CyberBuddy.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-31T00:41:57.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ConsoleStyler.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy\\Services\\ConsoleStyler.cs",
-              "RelativeDocumentMoniker": "CyberBuddy\\Services\\ConsoleStyler.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy\\Services\\ConsoleStyler.cs",
-              "RelativeToolTip": "CyberBuddy\\Services\\ConsoleStyler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T00:36:59.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ResponseService.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy\\Services\\ResponseService.cs",
-              "RelativeDocumentMoniker": "CyberBuddy\\Services\\ResponseService.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy\\Services\\ResponseService.cs",
-              "RelativeToolTip": "CyberBuddy\\Services\\ResponseService.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T00:36:04.128Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Chatbot.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy\\Models\\Chatbot.cs",
-              "RelativeDocumentMoniker": "CyberBuddy\\Models\\Chatbot.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy\\Models\\Chatbot.cs",
-              "RelativeToolTip": "CyberBuddy\\Models\\Chatbot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T00:34:55.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy\\Program.cs",
-              "RelativeDocumentMoniker": "CyberBuddy\\Program.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Documents\\CyberBuddy\\CyberBuddy\\Program.cs",
-              "RelativeToolTip": "CyberBuddy\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T00:33:28.233Z"
+              "WhenOpened": "2026-03-31T00:41:57.188Z"
             }
           ]
         }
