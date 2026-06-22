@@ -2,24 +2,19 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="CyberBuddy — Cybersecurity Awareness"
-        Height="720" Width="1040"
-        MinHeight="560" MinWidth="880"
+        Height="760" Width="1100"
+        MinHeight="600" MinWidth="900"
         Background="{StaticResource BrushBgDeep}"
         WindowStartupLocation="CenterScreen"
-        Loaded="Window_Loaded">
+        Loaded="Window_Loaded"
+        Closing="Window_Closing">
     <Grid Margin="16">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="280" />
+            <ColumnDefinition Width="260" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="Auto" />
-        </Grid.RowDefinitions>
 
-        <!-- ASCII art panel (Task 1 integration) -->
-        <Border Grid.Row="0" Grid.Column="0" Grid.RowSpan="2"
+        <Border Grid.Column="0"
             Background="{StaticResource BrushPanel}"
             CornerRadius="8" Padding="12" Margin="0,0,12,0"
             BorderBrush="{StaticResource BrushAccent}" BorderThickness="1">
@@ -30,75 +25,176 @@
                      FontSize="18" FontWeight="SemiBold" Margin="0,0,0,8" />
                     <TextBlock x:Name="AsciiText"
                      Foreground="{StaticResource BrushAccent}"
-                     FontFamily="Consolas"
-                     FontSize="10"
-                     TextWrapping="Wrap" />
+                     FontFamily="Consolas" FontSize="10" TextWrapping="Wrap" />
                     <TextBlock Text="Stay alert. Stay secure."
                      Foreground="{StaticResource BrushText}"
-                     FontSize="12"
-                     Margin="0,12,0,0"
-                     TextWrapping="Wrap" />
+                     FontSize="12" Margin="0,12,0,0" TextWrapping="Wrap" />
                 </StackPanel>
             </ScrollViewer>
         </Border>
 
-        <!-- Header -->
-        <Border Grid.Row="0" Grid.Column="1"
-            Background="{StaticResource BrushPanel}"
-            CornerRadius="8" Padding="16" Margin="0,0,0,12"
-            BorderBrush="{StaticResource BrushAccent}" BorderThickness="1">
-            <StackPanel>
-                <TextBlock Text="Cybersecurity chat"
-                   Foreground="{StaticResource BrushAccentDim}"
-                   FontSize="22" FontWeight="Bold" />
-                <TextBlock Text="Ask about passwords, scams, privacy, phishing, malware, or safe browsing. Say 'help' or 'exit'."
+        <TabControl Grid.Column="1" Background="Transparent" BorderThickness="0">
+
+            <TabItem Header="Chat">
+                <Grid Margin="0,8,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <Border Grid.Row="0" Background="{StaticResource BrushPanel}"
+                  CornerRadius="8" Padding="16" Margin="0,0,0,12"
+                  BorderBrush="{StaticResource BrushAccent}" BorderThickness="1">
+                        <TextBlock Text="Ask about security, manage tasks, start a quiz, or say 'show activity log'."
+                       Foreground="{StaticResource BrushText}" FontSize="13" TextWrapping="Wrap" />
+                    </Border>
+
+                    <Border Grid.Row="1" Background="{StaticResource BrushPanel}"
+                  CornerRadius="8" BorderBrush="{StaticResource BrushAccentDim}" BorderThickness="1">
+                        <ScrollViewer x:Name="ChatScroll" VerticalScrollBarVisibility="Auto" Padding="12">
+                            <StackPanel x:Name="ChatPanel" />
+                        </ScrollViewer>
+                    </Border>
+
+                    <Grid Grid.Row="2" Margin="0,12,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <TextBox x:Name="InputBox" MinHeight="44" FontSize="14" Padding="10"
+                     VerticalContentAlignment="Center" Background="#0D1B2A"
+                     Foreground="{StaticResource BrushText}"
+                     BorderBrush="{StaticResource BrushAccent}" BorderThickness="1"
+                     KeyDown="InputBox_KeyDown" />
+                        <Button x:Name="SendButton" Grid.Column="1" Content="Send"
+                    MinWidth="100" Margin="12,0,0,0" Padding="16,10"
+                    FontSize="14" FontWeight="SemiBold"
+                    Background="{StaticResource BrushAccent}" Foreground="#0D1B2A"
+                    BorderThickness="0" Cursor="Hand" Click="SendButton_Click" />
+                    </Grid>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Tasks" GotFocus="TasksTab_GotFocus">
+                <Grid Margin="0,8,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <Border Grid.Row="0" Background="{StaticResource BrushPanel}"
+                  CornerRadius="8" Padding="12" Margin="0,0,0,12"
+                  BorderBrush="{StaticResource BrushAccent}" BorderThickness="1">
+                        <StackPanel>
+                            <TextBlock Text="Add cybersecurity task" Foreground="{StaticResource BrushAccentDim}"
+                         FontWeight="SemiBold" Margin="0,0,0,8" />
+                            <TextBox x:Name="TaskTitleBox" Margin="0,0,0,8" Padding="8"
+                       Background="#0D1B2A" Foreground="{StaticResource BrushText}"
+                       BorderBrush="{StaticResource BrushAccent}" />
+                            <TextBlock Text="Description" Foreground="{StaticResource BrushText}" FontSize="12" />
+                            <TextBox x:Name="TaskDescBox" Margin="0,4,0,8" Padding="8" Height="60"
+                       TextWrapping="Wrap" AcceptsReturn="True"
+                       Background="#0D1B2A" Foreground="{StaticResource BrushText}"
+                       BorderBrush="{StaticResource BrushAccent}" />
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Reminder:" Foreground="{StaticResource BrushText}"
+                           VerticalAlignment="Center" Margin="0,0,8,0" />
+                                <DatePicker x:Name="TaskReminderPicker" Width="160" Margin="0,0,12,0" />
+                                <Button Content="Add Task" Padding="16,8" Click="AddTaskButton_Click"
+                        Background="{StaticResource BrushAccent}" Foreground="#0D1B2A"
+                        BorderThickness="0" FontWeight="SemiBold" />
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+
+                    <ListView x:Name="TaskListView" Grid.Row="1"
+                    Background="{StaticResource BrushPanel}"
+                    Foreground="{StaticResource BrushText}"
+                    BorderBrush="{StaticResource BrushAccentDim}" BorderThickness="1">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="ID" DisplayMemberBinding="{Binding Id}" Width="40" />
+                                <GridViewColumn Header="Title" DisplayMemberBinding="{Binding Title}" Width="180" />
+                                <GridViewColumn Header="Description" DisplayMemberBinding="{Binding Description}" Width="280" />
+                                <GridViewColumn Header="Reminder" DisplayMemberBinding="{Binding ReminderDate}" Width="140" />
+                                <GridViewColumn Header="Done" DisplayMemberBinding="{Binding IsCompleted}" Width="50" />
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+
+                    <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,12,0,0">
+                        <Button Content="Mark Complete" Margin="0,0,8,0" Padding="12,8"
+                    Click="CompleteTaskButton_Click"
+                    Background="{StaticResource BrushAccentDim}" Foreground="#0D1B2A" BorderThickness="0" />
+                        <Button Content="Delete Task" Padding="12,8" Click="DeleteTaskButton_Click"
+                    Background="#E63946" Foreground="White" BorderThickness="0" />
+                        <Button Content="Refresh" Margin="8,0,0,0" Padding="12,8" Click="RefreshTasksButton_Click"
+                    Background="{StaticResource BrushPanel}" Foreground="{StaticResource BrushText}"
+                    BorderBrush="{StaticResource BrushAccent}" />
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Quiz">
+                <Grid Margin="0,8,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+
+                    <Border Grid.Row="0" Background="{StaticResource BrushPanel}"
+                  CornerRadius="8" Padding="16" Margin="0,0,0,12"
+                  BorderBrush="{StaticResource BrushAccent}" BorderThickness="1">
+                        <StackPanel>
+                            <TextBlock x:Name="QuizScoreText" Text="Score: 0/0"
+                         Foreground="{StaticResource BrushAccentDim}" FontSize="16" FontWeight="Bold" />
+                            <Button Content="Start New Quiz" Margin="0,12,0,0" Padding="16,8"
+                      HorizontalAlignment="Left" Click="StartQuizButton_Click"
+                      Background="{StaticResource BrushAccent}" Foreground="#0D1B2A"
+                      BorderThickness="0" FontWeight="SemiBold" />
+                        </StackPanel>
+                    </Border>
+
+                    <Border Grid.Row="1" Background="{StaticResource BrushPanel}"
+                  CornerRadius="8" Padding="20"
+                  BorderBrush="{StaticResource BrushAccentDim}" BorderThickness="1">
+                        <StackPanel>
+                            <TextBlock x:Name="QuizQuestionText" Text="Press Start New Quiz to begin."
+                         Foreground="{StaticResource BrushText}" FontSize="16"
+                         TextWrapping="Wrap" Margin="0,0,0,20" />
+                            <StackPanel x:Name="QuizOptionsPanel" />
+                        </StackPanel>
+                    </Border>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Activity Log">
+                <Grid Margin="0,8,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <ListBox x:Name="ActivityLogList" Grid.Row="0"
+                   Background="{StaticResource BrushPanel}"
                    Foreground="{StaticResource BrushText}"
-                   FontSize="13"
-                   Margin="0,6,0,0"
-                   TextWrapping="Wrap" />
-            </StackPanel>
-        </Border>
+                   BorderBrush="{StaticResource BrushAccentDim}" BorderThickness="1"
+                   FontSize="13" Padding="8" />
 
-        <!-- Chat log -->
-        <Border Grid.Row="1" Grid.Column="1"
-            Background="{StaticResource BrushPanel}"
-            CornerRadius="8" Padding="0"
-            BorderBrush="{StaticResource BrushAccentDim}" BorderThickness="1">
-            <ScrollViewer x:Name="ChatScroll" VerticalScrollBarVisibility="Auto" Padding="12">
-                <StackPanel x:Name="ChatPanel" />
-            </ScrollViewer>
-        </Border>
+                    <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,12,0,0">
+                        <Button Content="Show Recent (8)" Padding="12,8" Margin="0,0,8,0"
+                    Click="ShowRecentLogButton_Click"
+                    Background="{StaticResource BrushAccent}" Foreground="#0D1B2A" BorderThickness="0" />
+                        <Button Content="Show Full History" Padding="12,8"
+                    Click="ShowFullLogButton_Click"
+                    Background="{StaticResource BrushPanel}" Foreground="{StaticResource BrushText}"
+                    BorderBrush="{StaticResource BrushAccent}" />
+                    </StackPanel>
+                </Grid>
+            </TabItem>
 
-        <!-- Input row -->
-        <Grid Grid.Row="2" Grid.Column="1" Margin="0,12,0,0">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="Auto" />
-            </Grid.ColumnDefinitions>
-            <TextBox x:Name="InputBox"
-               Grid.Column="0"
-               MinHeight="44"
-               FontSize="14"
-               Padding="10"
-               VerticalContentAlignment="Center"
-               Background="#0D1B2A"
-               Foreground="{StaticResource BrushText}"
-               BorderBrush="{StaticResource BrushAccent}"
-               BorderThickness="1"
-               KeyDown="InputBox_KeyDown" />
-            <Button x:Name="SendButton"
-              Grid.Column="1"
-              Content="Send"
-              MinWidth="100"
-              Margin="12,0,0,0"
-              Padding="16,10"
-              FontSize="14"
-              FontWeight="SemiBold"
-              Background="{StaticResource BrushAccent}"
-              Foreground="#0D1B2A"
-              BorderThickness="0"
-              Cursor="Hand"
-              Click="SendButton_Click" />
-        </Grid>
+        </TabControl>
     </Grid>
 </Window>

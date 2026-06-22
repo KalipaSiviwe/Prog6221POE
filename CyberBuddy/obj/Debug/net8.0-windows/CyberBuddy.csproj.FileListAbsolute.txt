@@ -1,0 +1,5 @@
+C:\Users\lab_services_student\Documents\CyberBuddy\CyberBuddy\obj\Debug\net8.0-windows\CyberBuddy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lab_services_student\Documents\CyberBuddy\CyberBuddy\obj\Debug\net8.0-windows\CyberBuddy.AssemblyInfoInputs.cache
+C:\Users\lab_services_student\Documents\CyberBuddy\CyberBuddy\obj\Debug\net8.0-windows\CyberBuddy.AssemblyInfo.cs
+C:\Users\lab_services_student\Documents\CyberBuddy\CyberBuddy\obj\Debug\net8.0-windows\CyberBuddy.csproj.CoreCompileInputs.cache
+C:\Users\lab_services_student\Documents\CyberBuddy\CyberBuddy\obj\Debug\net8.0-windows\CyberBuddy.sourcelink.json
